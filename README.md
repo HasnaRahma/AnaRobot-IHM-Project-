@@ -12,6 +12,8 @@ o Automatic mode: The robot automatically triggers itself over time to search fo
  The app also treats people with color blindness, helping them to detect colors they do not see.
 
 # Note :
+ You can see the project by downloading the project as a Zip and see the video in it.
+ 
  We plan to add a project website and deploy it on Azure.
  The technologies used are: Java (Eclipse), C ++ (Visual Studio) for the Android-Arduino link, Arduino compiler, Photoshop, Axure.
  The long-term challenge is to sophisticated the robot and make it a robot that offers a lot of services and expand the number of categories targeted
