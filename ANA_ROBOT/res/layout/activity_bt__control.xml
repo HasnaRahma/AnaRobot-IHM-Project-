@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_selector"
+        android:hint="@string/s_send_data" />
+    
+
+    <Button
+        android:id="@+id/v_led_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/entry"
+        android:background="@drawable/but_selector"
+        android:onClick="Button0_OnClick"
+        android:text="@string/s_led_off" />
+
+    <Button
+        android:id="@+id/v_led_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/v_led_off"
+        android:layout_alignBottom="@+id/v_led_off"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/v_led_off"
+        android:background="@drawable/but_selector"
+        android:onClick="Button1_Click"
+        android:text="@string/s_led_on" />
+
+    <Button
+        android:id="@+id/v_s_read_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/but_selector"
+        android:onClick="ButtonReadDataOnClick"
+        android:text="@string/s_read_data" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/v_led_on"
+        android:layout_alignBottom="@+id/v_led_on"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/but_selector"
+        android:onClick="ButtonSendDataOnClick"
+        android:text="@string/s_send_data" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/send"
+        android:layout_alignBottom="@+id/send"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/send"
+        android:background="@drawable/but_selector"
+        android:onClick="ButtonConnectOnClick"
+        android:selectAllOnFocus="@drawable/but_selector"
+        android:text="@string/s_conecte" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/open"
+        android:layout_alignTop="@+id/v_s_read_data"
+        android:background="@drawable/but_selector"
+        android:onClick="ButtonDisconnectOnClick"
+        android:text="@string/s_Disconnect" />
+
+</RelativeLayout>

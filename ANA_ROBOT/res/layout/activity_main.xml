@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homescreen" >
+
+    <ListView
+        android:id="@+id/vListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/vLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button
+        android:id="@+id/v_bluetooth_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/but_selector"
+        android:onClick="BluetoothOff"
+        android:text="@string/s_bluetooth_off" />
+
+        <Button
+            android:id="@+id/v_bluetooth_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:background="@drawable/but_selector"
+            android:onClick="BluetoothOn"
+            android:text="@string/s_bluetooth_on" />
+
+    </LinearLayout>
+
+</LinearLayout>

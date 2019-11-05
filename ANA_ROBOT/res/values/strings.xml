@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ANA_ROBOT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bt__control">BT_Control</string>
+    <string name="s_led_on">LED_On </string>
+    <string name="s_led_off">LED_Off </string>
+    <string name="s_read_data">read data .</string>
+    <string name="s_send_data">send data.</string>
+    <string name="s_conecte">conecte .</string>
+    <string name="s_Disconnect">Disconnect </string>
+    <string name="s_bluetooth_on">bluetooth on </string>
+    <string name="s_bluetooth_off">bluetooth off </string>
+    <string name="title_activity_btcontrol">BTcontrol</string>
+    <string name="title_activity_face_dt">FaceDT</string>
+
+</resources>
