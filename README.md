@@ -1,6 +1,10 @@
-# AnaRobot
+# AnaRobot 
  
 Product combining a robot plus a mobile application deployed on a smart phone that will guide the robot.
+
+# Requirements: 
+
+Download and install OpenCV-3.0.0-android-sdk on your phone 
 
 # Description :
 
